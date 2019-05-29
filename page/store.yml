@@ -52,37 +52,93 @@ content:
                             type: li
                             attribute:
                               class: 'list-unstyled-item list-hours-item d-flex'
-                            innerHTML: 'Sunday                  '
+                            innerHTML:
+                              -
+                                type: span
+                                innerHTML: Sunday
+                              -
+                                type: span
+                                attribute:
+                                  class: ml-auto
+                                innerHTML: Closed
                           -
                             type: li
                             attribute:
                               class: 'list-unstyled-item list-hours-item d-flex'
-                            innerHTML: 'Monday                  '
+                            innerHTML:
+                              -
+                                type: span
+                                innerHTML: Monday
+                              -
+                                type: span
+                                attribute:
+                                  class: ml-auto
+                                innerHTML: '7:00 AM to 8:00 PM'
                           -
                             type: li
                             attribute:
                               class: 'list-unstyled-item list-hours-item d-flex'
-                            innerHTML: 'Tuesday                  '
+                            innerHTML:
+                              -
+                                type: span
+                                innerHTML: Tuesday
+                              -
+                                type: span
+                                attribute:
+                                  class: ml-auto
+                                innerHTML: '7:00 AM to 8:00 PM'
                           -
                             type: li
                             attribute:
                               class: 'list-unstyled-item list-hours-item d-flex'
-                            innerHTML: 'Wednesday                  '
+                            innerHTML:
+                              -
+                                type: span
+                                innerHTML: Wednesday
+                              -
+                                type: span
+                                attribute:
+                                  class: ml-auto
+                                innerHTML: '7:00 AM to 8:00 PM'
                           -
                             type: li
                             attribute:
                               class: 'list-unstyled-item list-hours-item d-flex'
-                            innerHTML: 'Thursday                  '
+                            innerHTML:
+                              -
+                                type: span
+                                innerHTML: Thursday
+                              -
+                                type: span
+                                attribute:
+                                  class: ml-auto
+                                innerHTML: '7:00 AM to 8:00 PM'
                           -
                             type: li
                             attribute:
                               class: 'list-unstyled-item list-hours-item d-flex'
-                            innerHTML: 'Friday                  '
+                            innerHTML:
+                              -
+                                type: span
+                                innerHTML: Friday
+                              -
+                                type: span
+                                attribute:
+                                  class: ml-auto
+                                innerHTML: '7:00 AM to 8:00 PM'
                           -
                             type: li
                             attribute:
                               class: 'list-unstyled-item list-hours-item d-flex'
-                            innerHTML: 'Saturday                  '
+                            innerHTML:
+                              -
+                                type: span
+                                innerHTML: Saturday
+                              -
+                                type: span
+                                attribute:
+                                  class: ml-auto
+                                innerHTML: '9:00 AM to 5:00 PM'
                       -
                         type: p
                         attribute:
@@ -90,12 +146,31 @@ content:
                         innerHTML:
                           -
                             type: em
-                            innerHTML: 'Golden Valley, Minnesota                '
+                            innerHTML:
+                              -
+                                type: strong
+                                innerHTML: '1116 Orchard Street'
+                              -
+                                type: br
+                              -
+                                type: span
+                                innerHTML: 'Golden Valley, Minnesota'
                       -
                         type: p
                         attribute:
                           class: mb-0
-                        innerHTML: '(317) 585-8468              '
+                        innerHTML:
+                          -
+                            type: small
+                            innerHTML:
+                              -
+                                type: em
+                                innerHTML: 'Call Anytime'
+                          -
+                            type: br
+                          -
+                            type: span
+                            innerHTML: '(317) 585-8468'
   -
     type: section
     attribute:
@@ -154,4 +229,13 @@ content:
                             type: p
                             attribute:
                               class: mb-0
-                            innerHTML: 'We guarantee that you will fall in                  with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.'
+                            innerHTML:
+                              -
+                                type: span
+                                innerHTML: 'We guarantee that you will fall in'
+                              -
+                                type: em
+                                innerHTML: lust
+                              -
+                                type: span
+                                innerHTML: 'with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.'
