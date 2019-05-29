@@ -1,0 +1,67 @@
+settings:
+  layout:
+    - html
+    - main
+content:
+  -
+    type: section
+    attribute:
+      class: 'page-section about-heading'
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: container
+        innerHTML:
+          -
+            type: img
+            attribute:
+              class: 'img-fluid rounded about-heading-img mb-3 mb-lg-0'
+              src: /theme/startbootstrap/business_casual/img/about.jpg
+              alt: ''
+          -
+            type: div
+            attribute:
+              class: about-heading-content
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: row
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'col-xl-9 col-lg-10 mx-auto'
+                    innerHTML:
+                      -
+                        type: div
+                        attribute:
+                          class: 'bg-faded rounded p-5'
+                        innerHTML:
+                          -
+                            type: h2
+                            attribute:
+                              class: 'section-heading mb-4'
+                            innerHTML:
+                              -
+                                type: span
+                                attribute:
+                                  class: section-heading-upper
+                                innerHTML: 'Strong Coffee, Strong Roots'
+                              -
+                                type: span
+                                attribute:
+                                  class: section-heading-lower
+                                innerHTML: 'About Our Cafe'
+                          -
+                            type: p
+                            innerHTML: 'Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.'
+                          -
+                            type: p
+                            attribute:
+                              class: mb-0
+                            innerHTML: 'We guarantee that you will fall in with our decadent blends the moment you walk inside until you finish your last sip. Join us for your daily routine, an outing with friends, or simply just to enjoy some alone time.'
+
+
+

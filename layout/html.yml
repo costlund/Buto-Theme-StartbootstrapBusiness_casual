@@ -1,0 +1,59 @@
+settings:
+  path: '1/innerHTML/1/innerHTML'
+content:
+  -
+    type: text
+    text: '<!DOCTYPE html>'
+  -
+    type: html
+    attribute:
+      lang: en
+    innerHTML:
+      -
+        type: head
+        innerHTML:
+          -
+            type: meta
+            attribute:
+              charset: utf-8
+          -
+            type: meta
+            attribute:
+              name: viewport
+              content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+          -
+            type: meta
+            attribute:
+              name: description
+              content: ''
+          -
+            type: meta
+            attribute:
+              name: author
+              content: ''
+          -
+            type: title
+            innerHTML: 'Business Casual - Start Bootstrap Theme'
+          -
+            type: link
+            attribute:
+              href: /theme/startbootstrap/business_casual/vendor/bootstrap/css/bootstrap.min.css
+              rel: stylesheet
+          -
+            type: link
+            attribute:
+              href: 'https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i'
+              rel: stylesheet
+          -
+            type: link
+            attribute:
+              href: 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i'
+              rel: stylesheet
+          -
+            type: link
+            attribute:
+              href: /theme/startbootstrap/business_casual/css/business-casual.min.css
+              rel: stylesheet
+      -
+        type: body
+        innerHTML: 'body...'

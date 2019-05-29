@@ -1,0 +1,109 @@
+settings:
+  layout:
+    - html
+    - main
+content:
+  -
+    type: section
+    attribute:
+      class: 'page-section clearfix'
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: container
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: intro
+            innerHTML:
+              -
+                type: img
+                attribute:
+                  class: 'intro-img img-fluid mb-3 mb-lg-0 rounded'
+                  src: /theme/startbootstrap/business_casual/img/intro.jpg
+                  alt: ''
+              -
+                type: div
+                attribute:
+                  class: 'intro-text left-0 text-center bg-faded p-5 rounded'
+                innerHTML:
+                  -
+                    type: h2
+                    attribute:
+                      class: 'section-heading mb-4'
+                    innerHTML:
+                      -
+                        type: span
+                        attribute:
+                          class: section-heading-upper
+                        innerHTML: 'Fresh Coffee'
+                      -
+                        type: span
+                        attribute:
+                          class: section-heading-lower
+                        innerHTML: 'Worth Drinking'
+                  -
+                    type: p
+                    attribute:
+                      class: mb-3
+                    innerHTML: 'Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!          '
+                  -
+                    type: div
+                    attribute:
+                      class: 'intro-button mx-auto'
+                    innerHTML:
+                      -
+                        type: a
+                        attribute:
+                          class: 'btn btn-primary btn-xl'
+                          href: '#'
+                        innerHTML: 'Visit Us Today!'
+  -
+    type: section
+    attribute:
+      class: 'page-section cta'
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: container
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: row
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'col-xl-9 mx-auto'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'cta-inner text-center rounded'
+                    innerHTML:
+                      -
+                        type: h2
+                        attribute:
+                          class: 'section-heading mb-4'
+                        innerHTML:
+                          -
+                            type: span
+                            attribute:
+                              class: section-heading-upper
+                            innerHTML: 'Our Promise'
+                          -
+                            type: span
+                            attribute:
+                              class: section-heading-lower
+                            innerHTML: 'To You'
+                      -
+                        type: p
+                        attribute:
+                          class: mb-0
+                        innerHTML: 'When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!'
+
+

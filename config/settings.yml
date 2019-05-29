@@ -1,0 +1,5 @@
+plugin_modules:
+  p:
+    plugin: 'wf/doc'
+default_class: p
+default_method: home

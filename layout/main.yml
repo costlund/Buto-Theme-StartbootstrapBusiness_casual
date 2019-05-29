@@ -1,0 +1,135 @@
+settings:
+  path: '2/innerHTML'
+content:
+  -
+    type: h1
+    attribute:
+      class: 'site-heading text-center text-white d-none d-lg-block'
+    innerHTML:
+      -
+        type: span
+        attribute:
+          class: 'site-heading-upper text-primary mb-3'
+        innerHTML: 'A Free Bootstrap 4 Business Theme'
+      -
+        type: span
+        attribute:
+          class: site-heading-lower
+        innerHTML: 'Business Casual'
+  -
+    type: nav
+    attribute:
+      class: 'navbar navbar-expand-lg navbar-dark py-lg-4'
+      id: mainNav
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: container
+        innerHTML:
+          -
+            type: a
+            attribute:
+              class: 'navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none'
+              href: '#'
+            innerHTML: 'Start Bootstrap'
+          -
+            type: button
+            attribute:
+              class: navbar-toggler
+              type: button
+              data-toggle: collapse
+              data-target: '#navbarResponsive'
+              aria-controls: navbarResponsive
+              aria-expanded: 'false'
+              aria-label: 'Toggle navigation'
+            innerHTML:
+              -
+                type: span
+                attribute:
+                  class: navbar-toggler-icon
+          -
+            type: div
+            attribute:
+              class: 'collapse navbar-collapse'
+              id: navbarResponsive
+            innerHTML:
+              -
+                type: ul
+                attribute:
+                  class: 'navbar-nav mx-auto'
+                innerHTML:
+                  -
+                    type: li
+                    attribute:
+                      class: 'nav-item active px-lg-4'
+                    innerHTML:
+                      -
+                        type: a
+                        attribute:
+                          class: 'nav-link text-uppercase text-expanded'
+                          href: /
+                        innerHTML: 'Home              '
+                  -
+                    type: li
+                    attribute:
+                      class: 'nav-item px-lg-4'
+                    innerHTML:
+                      -
+                        type: a
+                        attribute:
+                          class: 'nav-link text-uppercase text-expanded'
+                          href: /about
+                        innerHTML: About
+                  -
+                    type: li
+                    attribute:
+                      class: 'nav-item px-lg-4'
+                    innerHTML:
+                      -
+                        type: a
+                        attribute:
+                          class: 'nav-link text-uppercase text-expanded'
+                          href: /products
+                        innerHTML: Products
+                  -
+                    type: li
+                    attribute:
+                      class: 'nav-item px-lg-4'
+                    innerHTML:
+                      -
+                        type: a
+                        attribute:
+                          class: 'nav-link text-uppercase text-expanded'
+                          href: /store
+                        innerHTML: Store
+  -
+    type: div
+    innerHTML: main...
+  -
+    type: footer
+    attribute:
+      class: 'footer text-faded text-center py-5'
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: container
+        innerHTML:
+          -
+            type: p
+            attribute:
+              class: 'm-0 small'
+            innerHTML: 'Copyright &copy; Your Website 2019'
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/business_casual/vendor/jquery/jquery.min.js
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/business_casual/vendor/bootstrap/js/bootstrap.bundle.min.js
+  -
+    type: script
+    attribute:
+      src: /theme/startbootstrap/business_casual/ThemeStartbootstrapBusiness_casual.js

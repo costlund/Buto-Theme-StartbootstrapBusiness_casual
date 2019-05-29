@@ -1,0 +1,188 @@
+settings:
+  layout:
+    - html
+    - main
+content:
+  -
+    type: section
+    attribute:
+      class: page-section
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: container
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: product-item
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'product-item-title d-flex'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'bg-faded p-5 d-flex ml-auto rounded'
+                    innerHTML:
+                      -
+                        type: h2
+                        attribute:
+                          class: 'section-heading mb-0'
+                        innerHTML:
+                          -
+                            type: span
+                            attribute:
+                              class: section-heading-upper
+                            innerHTML: 'Blended to Perfection'
+                          -
+                            type: span
+                            attribute:
+                              class: section-heading-lower
+                            innerHTML: 'Coffees & Teas'
+              -
+                type: img
+                attribute:
+                  class: 'product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0'
+                  src: /theme/startbootstrap/business_casual/img/products-01.jpg
+                  alt: ''
+              -
+                type: div
+                attribute:
+                  class: 'product-item-description d-flex mr-auto'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'bg-faded p-5 rounded'
+                    innerHTML:
+                      -
+                        type: p
+                        attribute:
+                          class: mb-0
+                        innerHTML: 'We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it''s our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.'
+  -
+    type: section
+    attribute:
+      class: page-section
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: container
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: product-item
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'product-item-title d-flex'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'bg-faded p-5 d-flex mr-auto rounded'
+                    innerHTML:
+                      -
+                        type: h2
+                        attribute:
+                          class: 'section-heading mb-0'
+                        innerHTML:
+                          -
+                            type: span
+                            attribute:
+                              class: section-heading-upper
+                            innerHTML: 'Delicious Treats, Good Eats'
+                          -
+                            type: span
+                            attribute:
+                              class: section-heading-lower
+                            innerHTML: 'Bakery & Kitchen'
+              -
+                type: img
+                attribute:
+                  class: 'product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0'
+                  src: /theme/startbootstrap/business_casual/img/products-02.jpg
+                  alt: ''
+              -
+                type: div
+                attribute:
+                  class: 'product-item-description d-flex ml-auto'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'bg-faded p-5 rounded'
+                    innerHTML:
+                      -
+                        type: p
+                        attribute:
+                          class: mb-0
+                        innerHTML: 'Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.'
+  -
+    type: section
+    attribute:
+      class: page-section
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: container
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: product-item
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'product-item-title d-flex'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'bg-faded p-5 d-flex ml-auto rounded'
+                    innerHTML:
+                      -
+                        type: h2
+                        attribute:
+                          class: 'section-heading mb-0'
+                        innerHTML:
+                          -
+                            type: span
+                            attribute:
+                              class: section-heading-upper
+                            innerHTML: 'From Around the World'
+                          -
+                            type: span
+                            attribute:
+                              class: section-heading-lower
+                            innerHTML: 'Bulk Speciality Blends'
+              -
+                type: img
+                attribute:
+                  class: 'product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0'
+                  src: /theme/startbootstrap/business_casual/img/products-03.jpg
+                  alt: ''
+              -
+                type: div
+                attribute:
+                  class: 'product-item-description d-flex mr-auto'
+                innerHTML:
+                  -
+                    type: div
+                    attribute:
+                      class: 'bg-faded p-5 rounded'
+                    innerHTML:
+                      -
+                        type: p
+                        attribute:
+                          class: mb-0
+                        innerHTML: 'Travelling the world for the very best quality coffee is something take pride in. When you visit us, you''ll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.'
